@@ -3,95 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matias Vega | Desarrollador</title>
+    <title>Mi Portafolio | Desarrollador</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <!-- Fondo con efectos -->
-    <div class="bg-effects">
-      <div class="stars-container">
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-      </div>
-      <div class="gradient-orbs">
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-        <div class="orb orb-3"></div>
-      </div>
+    <!-- Estrellas de fondo -->
+    <div class="stars">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
     </div>
 
-    <!-- Header principal con logo grande -->
-    <header class="main-header">
-      <div class="logo-container">
-        <h1 class="main-logo">Matias Vega</h1>
-        <div class="logo-subtitle">DESARROLLADOR</div>
-      </div>
-
-      <nav class="main-nav">
-        <div class="nav-item">
-          <a href="#home" class="nav-link">INICIO</a>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <h1>MI PORTAFOLIO</h1>
         </div>
-        <div class="nav-item">
-          <a href="#projects" class="nav-link">PROYECTOS</a>
-        </div>
-        <div class="nav-item">
-          <a href="#about" class="nav-link">ACERCA DE</a>
-        </div>
-        <div class="nav-item">
-          <a href="#contact" class="nav-link">CONTACTO</a>
+        <ul class="nav-links">
+          <li><a href="#home">INICIO</a></li>
+          <li><a href="#about">ACERCA DE</a></li>
+          <li><a href="#projects">PROYECTOS</a></li>
+          <li><a href="#contact">CONTACTO</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </nav>
     </header>
 
-    <!-- Sección principal con call-to-action -->
+    <!-- Sección Principal -->
     <main>
-      <section id="home" class="hero-section">
+      <section id="home" class="hero">
         <div class="hero-content">
-          <div class="announcement-banner">
-            <div class="banner-text">¡PORTAFOLIO ACTUALIZADO!</div>
-          </div>
-
-          <div class="main-cta">
-            <h2 class="cta-title">NUEVOS PROYECTOS DISPONIBLES</h2>
+          <div class="hero-text">
+            <div class="title-container">
+              <h1 class="main-title">Matias Vega</h1>
+              <h2 class="subtitle">DESARROLLADOR FULL STACK</h2>
+            </div>
+            <div class="hero-description">
+              <p>Creando experiencias digitales increíbles</p>
+              <p>con tecnologías modernas</p>
+            </div>
             <div class="cta-buttons">
               <a href="#projects" class="btn btn-primary">VER PROYECTOS</a>
               <a href="#contact" class="btn btn-secondary">CONTACTAR</a>
             </div>
           </div>
-
-          <div class="features-grid">
-            <div class="feature-box">
-              <div class="feature-icon">🚀</div>
-              <h3>TECNOLOGÍAS MODERNAS</h3>
-              <p>React, Node.js, Python y más</p>
-            </div>
-            <div class="feature-box">
-              <div class="feature-icon">💻</div>
-              <h3>DESARROLLO FULL STACK</h3>
-              <p>Frontend y Backend</p>
-            </div>
-            <div class="feature-box">
-              <div class="feature-icon">⚡</div>
-              <h3>RENDIMIENTO ÓPTIMO</h3>
-              <p>Código limpio y eficiente</p>
+          <div class="hero-graphic">
+            <div class="floating-element">
+              <div class="ring ring-1"></div>
+              <div class="ring ring-2"></div>
+              <div class="ring ring-3"></div>
+              <div class="center-orb"></div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Sección de información -->
       <section id="about" class="info-section">
         <div class="container">
           <div class="section-header">
@@ -117,7 +101,7 @@
                   <div class="stat-label">PROYECTOS</div>
                 </div>
                 <div class="stat-box">
-                  <div class="stat-number">4</div>
+                  <div class="stat-number">5+</div>
                   <div class="stat-label">AÑOS EXP.</div>
                 </div>
                 <div class="stat-box">
@@ -164,159 +148,86 @@
         </div>
       </section>
 
-     <!-- Sección de proyectos destacados -->
-<section id="projects" class="projects-section">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">PROYECTOS DESTACADOS</h2>
-      <p class="section-subtitle">
-        Una selección de mis mejores trabajos
-      </p>
-    </div>
-
-    <div class="projects-showcase">
-      <!-- Proyecto 1: Inmobiliaria -->
-      <div class="project-featured">
-        <div class="project-image">
-          <div class="project-placeholder">
-            <div class="placeholder-content">
-              <div class="placeholder-icon">🏠</div>
-              <div class="placeholder-text">INMOBILIARIA</div>
+      <!-- Sección Proyectos -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2 class="section-title">MIS PROYECTOS</h2>
+          <div class="projects-grid">
+            <!-- Proyecto 1: Casamia -->
+            <div class="project-card">
+              <div class="project-image">
+                <div class="placeholder-image">
+                  <span>CASAMIA</span>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>Casamia - Sistema Inmobiliaria</h3>
+                <p>
+                  Aplicación web completa para gestionar propiedades, clientes y
+                  usuarios. Desarrollada con React, PHP, MySQL y NPM.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">NPM</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link">DEMO</a>
+                  <a href="#" class="project-link">CÓDIGO</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="project-info">
-          <div class="project-badge">DESTACADO</div>
-          <h3>Sistema para Inmobiliaria</h3>
-          <p>
-            Proyecto completo con gestión de propiedades, clientes y usuarios. 
-            Desarrollado con React, PHP, MySQL y NPM.
-          </p>
-          <div class="project-tech">
-            <span class="tech-pill">React</span>
-            <span class="tech-pill">PHP</span>
-            <span class="tech-pill">MySQL</span>
-            <span class="tech-pill">NPM</span>
-          </div>
-          <div class="project-actions">
-            <a href="#" class="project-btn primary">DEMO EN VIVO</a>
-            <a href="#" class="project-btn secondary">VER CÓDIGO</a>
-          </div>
-        </div>
-      </div>
 
-      <!-- Proyecto 2: Página de películas -->
-      <div class="project-featured">
-        <div class="project-image">
-          <div class="project-placeholder">
-            <div class="placeholder-content">
-              <div class="placeholder-icon">🎬</div>
-              <div class="placeholder-text">PELÍCULAS</div>
+            <!-- Proyecto 2: Al cine con el Mati -->
+            <div class="project-card">
+              <div class="project-image">
+                <div class="placeholder-image">
+                  <span>AL CINE CON EL MATI</span>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>Al Cine con el Mati</h3>
+                <p>
+                  Plataforma personal para organizar y mostrar películas,
+                  gestionada desde mi servidor Debian. Incluye frontend en React
+                  y backend con PHP/MySQL.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Debian</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link">DEMO</a>
+                  <a href="#" class="project-link">CÓDIGO</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="project-info">
-          <div class="project-badge">EN PROGRESO</div>
-          <h3>Página Web para Hostear Películas</h3>
-          <p>
-            Plataforma personal para organizar y mostrar películas, gestionada desde mi servidor Debian. 
-            Incluye frontend en React y backend con PHP/MySQL.
-          </p>
-          <div class="project-tech">
-            <span class="tech-pill">React</span>
-            <span class="tech-pill">PHP</span>
-            <span class="tech-pill">MySQL</span>
-            <span class="tech-pill">Debian</span>
-          </div>
-          <div class="project-actions">
-            <a href="#" class="project-btn primary">DEMO EN VIVO</a>
-            <a href="#" class="project-btn secondary">VER CÓDIGO</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-
-            <div class="projects-grid">
-              <div class="project-card">
-                <div class="card-header">
-                  <div class="card-icon">📊</div>
-                  <div class="card-title">Dashboard Analytics</div>
-                </div>
-                <div class="card-description">
-                  Panel de control con gráficos interactivos y visualización de
-                  datos en tiempo real.
-                </div>
-                <div class="card-tech">
-                  <span class="mini-tech">Vue.js</span>
-                  <span class="mini-tech">D3.js</span>
-                  <span class="mini-tech">Python</span>
-                </div>
-                <div class="card-actions">
-                  <a href="#" class="card-link">VER</a>
-                  <a href="#" class="card-link">CÓDIGO</a>
+            <!-- Proyecto 3: Próximo proyecto -->
+            <div class="project-card">
+              <div class="project-image">
+                <div class="placeholder-image">
+                  <span>PRÓXIMO</span>
                 </div>
               </div>
-
-              <div class="project-card">
-                <div class="card-header">
-                  <div class="card-icon">🛒</div>
-                  <div class="card-title">E-commerce Platform</div>
+              <div class="project-info">
+                <h3>Proyecto en Desarrollo</h3>
+                <p>
+                  Próximo proyecto personal donde aplicaré nuevas tecnologías y
+                  buenas prácticas, con énfasis en seguridad y rendimiento.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Linux</span>
                 </div>
-                <div class="card-description">
-                  Plataforma completa de comercio electrónico con carrito, pagos
-                  y gestión de inventario.
-                </div>
-                <div class="card-tech">
-                  <span class="mini-tech">React</span>
-                  <span class="mini-tech">Stripe</span>
-                  <span class="mini-tech">Firebase</span>
-                </div>
-                <div class="card-actions">
-                  <a href="#" class="card-link">VER</a>
-                  <a href="#" class="card-link">CÓDIGO</a>
-                </div>
-              </div>
-
-              <div class="project-card">
-                <div class="card-header">
-                  <div class="card-icon">🤖</div>
-                  <div class="card-title">Bot de Discord</div>
-                </div>
-                <div class="card-description">
-                  Bot multifuncional con comandos personalizados, moderación
-                  automática y integración con APIs.
-                </div>
-                <div class="card-tech">
-                  <span class="mini-tech">JavaScript</span>
-                  <span class="mini-tech">Discord.js</span>
-                  <span class="mini-tech">SQLite</span>
-                </div>
-                <div class="card-actions">
-                  <a href="#" class="card-link">VER</a>
-                  <a href="#" class="card-link">CÓDIGO</a>
-                </div>
-              </div>
-
-              <div class="project-card">
-                <div class="card-header">
-                  <div class="card-icon">📱</div>
-                  <div class="card-title">App Móvil</div>
-                </div>
-                <div class="card-description">
-                  Aplicación móvil multiplataforma con sincronización en la nube
-                  y notificaciones push.
-                </div>
-                <div class="card-tech">
-                  <span class="mini-tech">React Native</span>
-                  <span class="mini-tech">Firebase</span>
-                  <span class="mini-tech">Redux</span>
-                </div>
-                <div class="card-actions">
-                  <a href="#" class="card-link">VER</a>
-                  <a href="#" class="card-link">CÓDIGO</a>
+                <div class="project-links">
+                  <a href="#" class="project-link">DEMO</a>
+                  <a href="#" class="project-link">CÓDIGO</a>
                 </div>
               </div>
             </div>
@@ -324,124 +235,63 @@
         </div>
       </section>
 
-      <!-- Sección de contacto -->
-      <section id="contact" class="contact-section">
+      <!-- Sección de Contacto -->
+      <section id="contact" class="contact">
         <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">TRABAJEMOS JUNTOS</h2>
-          </div>
-
+          <h2 class="section-title">HABLEMOS</h2>
           <div class="contact-content">
             <div class="contact-info">
-              <div class="contact-card">
-                <h3>¿TIENES UN PROYECTO EN MENTE?</h3>
-                <p>
-                  Estoy siempre abierto a nuevas oportunidades y colaboraciones
-                  interesantes. ¡Hablemos!
-                </p>
+              <h3>¿Tienes un proyecto en mente?</h3>
+              <p>
+                Estoy siempre interesado en nuevas oportunidades y
+                colaboraciones. ¡No dudes en contactarme!
+              </p>
 
-                <div class="contact-methods">
-                  <div class="contact-method">
-                    <div class="method-icon">📧</div>
-                    <div class="method-info">
-                      <div class="method-label">EMAIL</div>
-                      <a href="mailto:tu-email@ejemplo.com"
-                        >tu-email@ejemplo.com</a
-                      >
-                    </div>
-                  </div>
-                  <div class="contact-method">
-                    <div class="method-icon">💼</div>
-                    <div class="method-info">
-                      <div class="method-label">LINKEDIN</div>
-                      <a
-                        href="https://linkedin.com/in/tu-perfil"
-                        target="_blank"
-                        >linkedin.com/in/tu-perfil</a
-                      >
-                    </div>
-                  </div>
-                  <div class="contact-method">
-                    <div class="method-icon">🐙</div>
-                    <div class="method-info">
-                      <div class="method-label">GITHUB</div>
-                      <a href="https://github.com/tu-usuario" target="_blank"
-                        >github.com/tu-usuario</a
-                      >
-                    </div>
-                  </div>
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <span class="contact-icon">📧</span>
+                  <a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a>
+                </div>
+                <div class="contact-method">
+                  <span class="contact-icon">💼</span>
+                  <a href="https://linkedin.com/in/tu-perfil" target="_blank"
+                    >LinkedIn</a
+                  >
+                </div>
+                <div class="contact-method">
+                  <span class="contact-icon">🐙</span>
+                  <a href="https://github.com/tu-usuario" target="_blank"
+                    >GitHub</a
+                  >
                 </div>
               </div>
             </div>
 
-            <div class="contact-form-container">
-              <div class="form-card">
-                <h3>ENVÍA UN MENSAJE</h3>
-                <form class="contact-form">
-                  <div class="form-group">
-                    <label>NOMBRE</label>
-                    <input type="text" required />
-                  </div>
-                  <div class="form-group">
-                    <label>EMAIL</label>
-                    <input type="email" required />
-                  </div>
-                  <div class="form-group">
-                    <label>MENSAJE</label>
-                    <textarea rows="4" required></textarea>
-                  </div>
-                  <button type="submit" class="form-submit">
-                    ENVIAR MENSAJE
-                  </button>
-                </form>
-              </div>
+            <div class="contact-form">
+              <h3>Envía un mensaje</h3>
+              <form>
+                <input type="text" placeholder="Tu nombre" required />
+                <input type="email" placeholder="Tu email" required />
+                <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">
+                  ENVIAR MENSAJE
+                </button>
+              </form>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <!-- Footer con créditos -->
-    <footer class="main-footer">
+    <!-- Footer -->
+    <footer class="footer">
       <div class="container">
-        <div class="footer-content">
-          <div class="footer-info">
-            <div class="footer-title">PORTAFOLIO DESARROLLADO POR</div>
-            <div class="footer-credits">
-              <div class="credit-line">
-                CÓDIGO:
-                <a href="https://github.com/tu-usuario" target="_blank"
-                  >TU NOMBRE</a
-                >
-              </div>
-              <div class="credit-line">
-                DISEÑO INSPIRADO EN:
-                <a
-                  href="https://stardropsmh.github.io/sonic-and-the-fallen-star/"
-                  target="_blank"
-                  >SONIC AND THE FALLEN STAR</a
-                >
-              </div>
-              <div class="credit-line">
-                DISEÑO ORIGINAL POR:
-                <a href="https://twitter.com/the_weigman" target="_blank"
-                  >JOE WEIGMAN</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="footer-links">
-            <a href="#home">INICIO</a>
-            <a href="#projects">PROYECTOS</a>
-            <a href="#about">ACERCA DE</a>
-            <a href="#contact">CONTACTO</a>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>
-            &copy; 2024 Tu Nombre. Inspirado en el increíble trabajo de
-            StarDrop.
-          </p>
+        <p>&copy; 2025 Matias. Todos los derechos reservados.</p>
+        <div class="footer-links">
+          <a href="#home">Inicio</a>
+          <a href="#about">Acerca de</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#contact">Contacto</a>
         </div>
       </div>
     </footer>

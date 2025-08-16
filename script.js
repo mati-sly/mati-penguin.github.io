@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
             transition: transform 0.3s ease;
             ${
               type === "success"
-                ? "background: linear-gradient(45deg, #00d4ff, #0099cc);"
+                ? "background: linear-gradient(45deg, #19752dff, #16773eff);"
                 : "background: linear-gradient(45deg, #ff4757, #ff3838);"
             }
         `;
